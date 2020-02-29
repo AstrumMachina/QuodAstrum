@@ -1,0 +1,3 @@
+displayName = Quod Astrum (The Star) mod
+author = Astrum Machina
+version = 0.1
