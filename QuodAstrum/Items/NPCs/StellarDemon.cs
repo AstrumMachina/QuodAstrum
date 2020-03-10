@@ -28,7 +28,7 @@ namespace QuodAstrum.Items.NPCs
         }
         public override float SpawnChance(NPCSpawnInfo spawnInfo)
         {
-            return spawnInfo.player.ZoneSkyHeight && !Main.dayTime ? 100f : 0f;
+            return spawnInfo.player.ZoneSkyHeight && !Main.dayTime ? 50f : 0f;
 
         }
         public override void FindFrame(int frameHeight)
